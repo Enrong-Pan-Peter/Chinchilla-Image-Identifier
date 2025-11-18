@@ -1,0 +1,24 @@
+# Data files (don't commit large image datasets)
+data/
+*.jpg
+*.png
+
+# Model files
+models/*.pth
+models/*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
